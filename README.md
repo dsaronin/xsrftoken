@@ -74,6 +74,8 @@ run bundle install.
   faraday.request  :xsrf        # xsrf token generation and validation
 ```
 
+## references
 
+I patterned the xsrftoken class after a golang package: 
 
-
+https://code.google.com/p/xsrftoken/source/browse/xsrf.go
